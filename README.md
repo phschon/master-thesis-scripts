@@ -1,4 +1,6 @@
-# Master Thesis Scripts
+# Networking Scripts
+
+Collection of scripts for network traffic analyzation I recently used.
 
 ## `elf_parser.py`
 
