@@ -4,7 +4,7 @@ Collection of scripts for network traffic analyzation I recently used.
 
 ## `elf_parser.py`
 
-Declines of accepts ELF files on outgoing network interface. By default all ELF files are put into `netfilterqueue` by `iptables`.
+Declines of accepts ELF files on outgoing network interface. By default all ELF files are put into `netfilterqueue` using `iptables`.
 
 Reads header of outgoing ELF files (filtered by NetfilterQueue), hashes header and compares it to a whitelist of header hashes. Whitelist created by previously hashed ELF file headers in `/bin/`folder.
 
